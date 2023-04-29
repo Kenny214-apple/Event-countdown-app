@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Event Countdown App</title>
+  </head>
+  <body>
+    <div class="first-div" id="first-div">
+      <label for="input-tagline">
+        <h5>Enter Your Tag line :</h5>
+        <input
+          type="text"
+          class="input"
+          id="tagline-input"
+        />
+      </label>
+      <div id="error-message-1"></div>
+      <label for="input-tagline-discription">
+        <h5>Enter Your Tagline Description :</h5>
+        <input
+          type="text"
+          class="input"
+          id="taglineInputDescription"
+            />
+      </label>
+      <div id="error-message-2"></div>
+      <label for="input-taglineExpired">
+        <h5>Enter Your Tag line After Countdown Expiration :</h5>
+        <input
+          type="text"
+          class="input"
+          id="tagline-inputExpired"
+        />
+      </label>
+      <div id="error-message-3"></div>
+      <label for="input-tagline-discriptionExpired">
+        <h5>Enter Your Tagline Description After Countdown Expiration :</h5>
+        <input
+          type="text"
+          class="input"
+          id="taglineInputDescriptionExpired"
+        />
+      </label>
+      <div id="error-message-4"></div>
+      <label for="input-datetime">
+        <h5>Select Your Countdown Date and Time :</h3>
+        <input
+          type="datetime-local"
+          class="input"
+          id="datetime-input"
+        />
+      </label>
+      <div id="error-message-5"></div>
+      <button id="submit-Btn">SUBMIT</button>
+    </div>
+    <div class="second-div" id="second-div">
+      <h2 id="tagline-DOM">WE ARE COMING SOON</h2>
+      <h5 id="tagline-discription-DOM">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+        quisquam reiciendis. Minus perspiciatis sapiente impedit aspernatur!
+        Atque, inventore enim quibusdam cum odio minima nesciunt corporis,
+        nostrum quaerat, modi at similique!
+      </h5>
+      <div class="main-body-part">
+        <div class="days">
+          <div class="top-tagline" id="Days-DOM">0</div>
+          <div class="bottom-tagline">days</div>
+        </div>
+        <div class="hours">
+          <div class="top-tagline" id="Hours-DOM">0</div>
+          <div class="bottom-tagline">Hours</div>
+        </div>
+        <div class="minutes">
+          <div class="top-tagline" id="Minutes-DOM">0</div>
+          <div class="bottom-tagline">Minutes</div>
+        </div>
+        <div class="seconds">
+          <div class="top-tagline" id="Seconds-DOM">0</div>
+          <div class="bottom-tagline">Seconds</div>
+        </div>
+      </div>
+      <h4>Subscribe to our newsletter to get updates.</h4>
+      <div class="bottom">
+        <input type="email" placeholder="Enter Your email address" class="email" id="email">
+        <button id="subscribe-btn">Subscribe</button>
+      </div>
+    </div>
+    <script src="./App.js"></script>
+  </body>
+</html>

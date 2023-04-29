@@ -1,0 +1,143 @@
+:root {
+  --primaryBackGroundColor: hsl(222, 26%, 31%);
+  --primaryColor: hsl(224, 36%, 15%);
+  --primaryColorSecond: hsl(223, 31%, 20%);
+  --secondaryColor: hsl(0, 0%, 85%);
+  --secondaryColorSecond: hsl(224, 36%, 10%);
+}
+
+body {
+  background-color: var(--primaryBackGroundColor);
+  font-family: monospace;
+}
+/* First Div Body */
+.first-div {
+  display: grid;
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  /* display: none; */
+}
+h5 {
+  color: var(--secondaryColor);
+}
+.input,
+#submit-Btn {
+  width: 390px;
+  padding: 7px 10px;
+  margin-top: -10px;
+  box-sizing: border-box;
+  border: 1px solid var(--primaryColor);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#datetime-input:hover {
+  cursor: pointer;
+}
+
+#submit-Btn {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+
+#submit-Btn:hover {
+  cursor: pointer;
+  background-color: var(--secondaryColorSecond);
+}
+/* End of first Div Body */
+
+/* Second Div Body */
+.second-div {
+  display: grid;
+  margin: auto;
+  margin-top: 100px;
+  width: 700px;
+  display: none;
+}
+
+h2,
+h4 {
+  text-align: center;
+  color: var(--secondaryColor);
+}
+
+#tagline-DOM {
+  text-transform: uppercase;
+}
+
+#tagline-discription-DOM {
+  text-align: center;
+  line-height: 1rem;
+}
+
+.main-body-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  background-color: var(--primaryColor);
+  width: 150px;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 12px;
+}
+
+.bottom-tagline {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  text-transform: uppercase;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+}
+
+.top-tagline {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: var(--secondaryColor);
+}
+
+.bottom {
+  background-color: var(--primaryColorSecond);
+  margin: 10px 100px;
+  padding: 7px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email {
+  background-color: var(--primaryColorSecond);
+  color: var(--secondaryColor);
+  padding-left: 80px;
+  border: none;
+}
+
+.email:hover {
+  background-color: var(--primaryColorSecond);
+  border: none;
+}
+
+#subscribe-btn {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColorSecond);
+  width: 120px;
+  padding: 7px 0;
+  margin: 0 5px;
+  border: 0.5px solid var(--secondaryColor);
+  border-radius: 5px;
+}
+
+#subscribe-btn:hover {
+  cursor: pointer;
+  background-color: white;
+}
